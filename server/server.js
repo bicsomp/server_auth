@@ -53,7 +53,6 @@ app.get('/user/profile',auth,(req,res)=>{
     res.status(200).send(req.token)
 })
 
-
 const port = process.env.PORT || 3000;
 
 app.listen(port,()=>{
